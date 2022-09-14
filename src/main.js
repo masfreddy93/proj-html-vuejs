@@ -10,9 +10,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faMagnifyingGlass, faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
+import { faInstagram, faLinkedin, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faCartShopping, faUser );
+library.add(faMagnifyingGlass, faCartShopping, faUser, faSquareFacebook, faTwitter, faInstagram, faLinkedin)
+
 
 
 
