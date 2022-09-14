@@ -9,8 +9,10 @@
 
 
             <div class="header-end">
-                <ul v-for="(item, i) in menuItems" :key="i" class="header-end-menu">
-                    <li><a :href="item.href" > {{ item.text }} </a></li>
+                <ul class="header-end-menu">
+                    <li v-for="(item, i) in menuItems" :key="i">
+                        <a :href="item.href" > {{ item.text }} </a>
+                    </li>
                 </ul>
 
                 <ul class="header-end-tools">
