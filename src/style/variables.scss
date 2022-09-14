@@ -4,10 +4,15 @@ $header-bg: #1F1F52;
 $button-bg: #20AD96;
 $section-bg-grey: #F5F7FA;
 
+$font-color-grey-hero: #B6B3C2;
+$font-color-grey-section: #9E9E9E;
+
 
 //mixin
 @mixin my-display-flex {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 0.5rem;
+    // flex-wrap: wrap;
 }
