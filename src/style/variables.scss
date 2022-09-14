@@ -1,0 +1,13 @@
+//variables
+
+$header-bg: #1F1F52;
+$button-bg: #20AD96;
+$section-bg-grey: #F5F7FA;
+
+
+//mixin
+@mixin my-display-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
