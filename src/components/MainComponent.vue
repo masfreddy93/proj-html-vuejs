@@ -1,25 +1,29 @@
 <template>
     <main>
-        <section class="section2">
+        <section class="section-2">
             <div class="container">
                 <h5>Choose a course to get started</h5>
                 <h2>Latest Featured <mark>Courses</mark></h2>
                 <ul class="carousel">
-                    <li class="card row-section">
-                        <figure class="card-thumbnail col-4">
-                            <a href="#"><img src="../assets/images/course-02-480x298.jpg" alt=""></a>
-                        </figure>
-                        <div class="card-details">
-                            <span class="course-price">$40.<span class="course-price-decimals">00</span></span>
-                            <a href="#"><p class="course-description">Learning to Write as a Professional Author</p></a>
-                            <div class="course-details row-section">
-                                <div class="lessons-number row-section">
-                                    <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                    <span>20 lessons</span>
-                                </div>
-                                <div class="students-number row-section">
-                                    <font-awesome-icon icon="fa-regular fa-user" />
-                                    <span>50 students</span>
+                    <li class>
+                        <div class="card row-section">
+                            <figure class="card-thumbnail col-4">
+                                <a href="#"><img src="../assets/images/course-02-480x298.jpg" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <span class="course-price">$40.<span class="course-price-decimals">00</span></span>
+                                <a href="#">
+                                    <p class="course-description">Learning to Write as a Professional Author</p>
+                                </a>
+                                <div class="course-details row-section">
+                                    <div class="lessons-number row-section">
+                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
+                                        <span>20 lessons</span>
+                                    </div>
+                                    <div class="students-number row-section">
+                                        <font-awesome-icon icon="fa-regular fa-user" />
+                                        <span>50 students</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +34,9 @@
                         </figure>
                         <div class="card-details">
                             <span class="course-price">Free</span>
-                            <a href="#"><p class="course-description">Customer-centric Info-Tech Strategies</p></a>
+                            <a href="#">
+                                <p class="course-description">Customer-centric Info-Tech Strategies</p>
+                            </a>
                             <div class="course-details row-section">
                                 <div class="lessons-number row-section">
                                     <font-awesome-icon icon="fa-solid fa-file-lines" />
@@ -49,7 +55,9 @@
                         </figure>
                         <div class="card-details">
                             <span class="course-price">$19.<span class="course-price-decimals">00</span></span>
-                            <a href="#"><p class="course-description">Open Programming Courses for Everyone: Python</p></a>
+                            <a href="#">
+                                <p class="course-description">Open Programming Courses for Everyone: Python</p>
+                            </a>
                             <div class="course-details row-section">
                                 <div class="lessons-number row-section">
                                     <font-awesome-icon icon="fa-solid fa-file-lines" />
@@ -68,7 +76,9 @@
                         </figure>
                         <div class="card-details">
                             <span class="course-price">$26.<span class="course-price-decimals">00</span></span>
-                            <a href="#"><p class="course-description">Academic Listening and Note-taking</p></a>
+                            <a href="#">
+                                <p class="course-description">Academic Listening and Note-taking</p>
+                            </a>
                             <div class="course-details row-section">
                                 <div class="lessons-number row-section">
                                     <font-awesome-icon icon="fa-solid fa-file-lines" />
@@ -87,7 +97,9 @@
                         </figure>
                         <div class="card-details">
                             <span class="course-price">$39.<span class="course-price-decimals">00</span></span>
-                            <a href="#"><p class="course-description">Master jQuery in a Short Period of Time</p></a>
+                            <a href="#">
+                                <p class="course-description">Master jQuery in a Short Period of Time</p>
+                            </a>
                             <div class="course-details row-section">
                                 <div class="lessons-number row-section">
                                     <font-awesome-icon icon="fa-solid fa-file-lines" />
@@ -106,7 +118,9 @@
                         </figure>
                         <div class="card-details">
                             <span class="course-price">$59.<span class="course-price-decimals">00</span></span>
-                            <a href="#"><p class="course-description">Introduction to Javascript for Beginners</p></a>
+                            <a href="#">
+                                <p class="course-description">Introduction to Javascript for Beginners</p>
+                            </a>
                             <div class="course-details row-section">
                                 <div class="lessons-number row-section">
                                     <font-awesome-icon icon="fa-solid fa-file-lines" />
@@ -120,7 +134,33 @@
                         </div>
                     </li>
                 </ul>
-                <button class="button">View All Courses  &#8594;</button>
+                <button class="button">View All Courses &#8594;</button>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="container">
+                <h2>Why People Talk About <mark>MaxCoach</mark>?</h2>
+                <div class="container-small">
+                    <div class="card row-section">
+                        <figure class="card-thumbnail col-3">
+                            <a href="#"><img src="../assets/images/testimonial-avata-02.jpg" alt=""></a>
+                        </figure>
+                        <div class="card-details">
+                            <p>I am free to learn at my own space, follow my own schedule and choose the subject I like.
+                                Great study portal for people like me.</p>
+                            <h5>Mina Hollance</h5>
+                            <span>/ Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row">
+                    <li><a href="#"><img src="../assets/images/client-logo-colored-01.png" alt=""></a></li>
+                    <li><a href="#"><img src="../assets/images/client-logo-colored-02.png" alt=""></a></li>
+                    <li><a href="#"><img src="../assets/images/client-logo-colored-03.png" alt=""></a></li>
+                    <li><a href="#"><img src="../assets/images/client-logo-colored-04.png" alt=""></a></li>
+                    <li><a href="#"><img src="../assets/images/client-logo-colored-05.png" alt=""></a></li>
+                    <li><a href="#"><img src="../assets/images/client-logo-colored-06.png" alt=""></a></li>
+                </ul>
             </div>
         </section>
     </main>
@@ -129,77 +169,128 @@
 
 <script>
 
-    export default {
+export default {
 
-    }
+}
 
 </script>
 
 
 
 <style lang="scss">
+@import '../style/variables.scss';
 
-    @import '../style/variables.scss';
+main {
 
-    main {
-        
-        .section2{
-            background-color: $section-bg-grey;
+    .section-2 {
+        background-color: $section-bg-grey;
 
-            .carousel {
-                @include my-display-flex;
-                flex-wrap: wrap;
+        .carousel {
+            @include my-display-flex;
+            flex-wrap: wrap;
 
-                li {
-                    flex-basis: calc(50% - 1rem);
-                    justify-content: flex-start;
+            .card {
+                padding: 1rem 0;
+                margin-bottom: 1rem;
+            }
 
-                    img {
-                        max-width: 10.5rem;
-                        aspect-ratio: 1;
-                        border-radius: 50%;
+            li {
+                flex-basis: calc(50% - 1rem);
+                justify-content: flex-start;
 
+                img {
+                    max-width: 170px;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
+
+                }
+
+                .card-details {
+                    align-self: center;
+
+                    &>span,
+                    p {
+                        margin-bottom: 1.25rem;
                     }
 
-                    .card-details {
-                        align-self: center;
+                    &>span {
+                        display: block;
+                        font-size: 1.25rem;
+                        font-weight: bold;
+                        color: $button-bg;
 
-                        & > span, p {
-                            margin-bottom: 1.25rem;
+                        .course-price-decimals {
+                            font-size: 1rem;
                         }
+                    }
 
-                        & > span {
-                            display: block;
-                            font-size: 1.25rem;
-                            font-weight: bold;
-                            color: $button-bg;
+                    &>a {
+                        line-height: 2rem;
+                        font-size: 1.125rem;
+                        font-weight: bold;
+                    }
 
-                            .course-price-decimals {
-                                font-size: 1rem;
-                            }
+                    .course-details {
+                        font-size: 0.75rem;
+                        font-weight: 400;
+
+                        .lessons-number,
+                        .students-number {
+                            gap: 0.5rem;
                         }
-
-                        & > a {
-                            line-height: 2rem;
-                            font-size: 1.125rem;
-                            font-weight: bold;
-                        }
-
-                        .course-details {
-                            font-size: 0.75rem;
-                            font-weight: 400;
-
-                            .lessons-number, .students-number {
-                                gap: 0.5rem;
-                            }
-                        }
-
                     }
 
                 }
+
+            }
+        }
+    }
+
+    .section-3 {
+
+        .card {
+            padding: 3rem 0;
+            gap: 5rem;
+
+            .card-thumbnail {
+                background-image: url('../assets/images/maxcoach-shape-05-150x150.png');
+                background-repeat: no-repeat;
+                background-position: bottom right;
+                background-size: auto;
+
+                img {
+                    max-width: 200px;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
+                    // display: none;
+                }
+            }
+
+            p {
+                font-size: 2rem;
+                margin-bottom: 3rem;
+            }
+
+            h5 {
+                font-size: 1rem;
+                font-weight: bold;
+                // text-transform: uppercase;
+                margin-bottom: 1.25rem;
+                padding: 0;
+            }
+
+            span {
+                font-size: 0.875rem;
+                color: $font-color-grey-section;
             }
         }
 
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
     }
-
+}
 </style>
