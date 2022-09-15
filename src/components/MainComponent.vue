@@ -1,5 +1,52 @@
 <template>
     <main>
+        <div class="hero">
+            <div class="hero-top">
+                <div class="container-hero">
+                    <h2>Learn Ay Your Own Pace!</h2>
+                    <p>Get team up with people of the same will</p>
+                    <button class="button">Get started for free</button>
+                    <figure>
+                        <img src="../assets/images/home-6-hero-poster-final.jpg" alt="Poster Hero" class="poster-hero">
+                        <img src="../assets/images/icon-youtube-play.png" alt="Logo Youtube" class="youtube-logo">
+                        <img src="../assets/images/home-6-hero-left-person.png" alt="person pic"
+                            class="hero-person person-left">
+                        <img src="../assets/images/home-6-hero-right-person.png" alt="person pic"
+                            class="hero-person person-right">
+                    </figure>
+                </div>
+            </div>
+            <div class="hero-middle">
+                <div class="container-hero">
+                    <h3>Let passion and determination be the guide along the way and develop at your own pace that's
+                        confortable</h3>
+                    <h5>Fannie Moreno</h5>
+                    <span>Founder & CEO</span>
+                </div>
+            </div>
+            <div class="hero-bottom">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <span>1.926</span>
+                            <h5>Finished sessions</h5>
+                        </li>
+                        <li>
+                            <span>3.092+</span>
+                            <h5>Enrolled learners</h5>
+                        </li>
+                        <li>
+                            <span>200</span>
+                            <h5>Online instructors</h5>
+                        </li>
+                        <li>
+                            <span>100%</span>
+                            <h5>Satisfaction rate</h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <section class="section-2">
             <div class="container">
                 <h5>Choose a course to get started</h5>
@@ -316,6 +363,123 @@ export default {
 @import '../style/variables.scss';
 
 main {
+
+    .hero {
+        text-align: center;
+
+        h5 {
+            margin-bottom: 1.25rem;
+            font-size: 1rem;
+        }
+
+        .hero-top {
+            padding-top: 100px;
+            background: linear-gradient(($header-bg, #8888d9) 86%, (rgb(162, 192, 244), rgb(252, 249, 249)) 86%);
+            color: white;
+
+            .container-hero {
+                position: relative;
+            }
+
+            h2 {
+                margin-bottom: 0.75rem;
+                font-size: 2.875rem;
+            }
+
+            p {
+                margin-bottom: 2rem;
+                font-size: 1.125rem;
+                color: $font-color-grey-hero;
+            }
+
+            .button {
+                margin-bottom: 5rem;
+            }
+
+            figure {
+                position: relative;
+                padding-bottom: 1rem;
+
+                img.poster-hero {
+                    max-height: 465px;
+                    display: inline-block;
+                    border: 20px solid white;
+                    border-radius: 10px;
+                }
+
+                img.youtube-logo {
+                    position: absolute;
+                    max-width: 100px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    cursor: pointer;
+                }
+
+                img.hero-person {
+                    position: absolute;
+                    bottom: 0;
+                }
+
+                img.person-left {
+                    max-width: 360px;
+                    left: 0;
+                    transform: translateX(-80%);
+                }
+
+                img.person-right {
+                    max-width: 240px;
+                    right: 0;
+                    transform: translate(100%, 45%);
+                }
+            }
+        }
+
+        .hero-middle {
+            padding: 13rem 0 5rem;
+
+            h3 {
+                font-size: 2.0625rem;
+                margin-bottom: 3.125rem;
+            }
+
+            h5 {
+                margin-bottom: 1.25rem;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+
+            span {
+                font-size: 0.875rem;
+                color: $font-color-grey-hero;
+            }
+        }
+
+        .hero-bottom {
+
+            ul {
+                padding: 3rem;
+                @include my-display-flex;
+
+                li {
+                    align-self: center;
+
+                    span {
+                        display: block;
+                        font-size: 2.75rem;
+                        font-weight: bolder;
+                        color: $button-bg;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    h5 {
+                        color: $font-color-grey-hero;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
 
     .section-2 {
         background-color: $section-bg-grey;
