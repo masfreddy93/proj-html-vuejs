@@ -290,6 +290,14 @@
                 </ul>
             </div>
         </section>
+        <section class="section-6">
+            <div class="container">
+                <img src="../assets/images/home-6-services-image.png" alt="">
+                <h4>Start today for getting <mark>Online Certification</mark></h4>
+                <h3>You can be your own guiding star with our help!</h3>
+                <button class="button">Get started now</button>
+            </div>
+        </section>
     </main>
 </template>
 
@@ -498,6 +506,24 @@ main {
                     font-size: 0.875rem;
                 }
             }
+        }
+    }
+
+    .section-6 {
+        background: linear-gradient((white, $section6-bg-grey) 54.085%, white 54.085%);
+
+        img {
+            margin-bottom: 8.5rem;
+        }
+
+        h4 {
+            font-size: 1.4375rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 2.0625rem;
+            margin-bottom: 2rem;
         }
     }
 
