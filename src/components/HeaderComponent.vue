@@ -1,73 +1,27 @@
 <template>
     <header>
         <div class="container">
-            <div class="header-start">
-                <figure class="logo">
-                    <img src="../assets/images/dark-logo.png" alt="">
-                </figure>
-            </div>
-
-
-            <div class="header-end">
-                <ul class="header-end-menu">
-                    <li v-for="(item, i) in menuItems" :key="i">
-                        <a :href="item.href" > {{ item.text }} </a>
-                    </li>
-                </ul>
-
-                <ul class="header-end-tools">
-                    <li class="cart">
-                        <a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" class="cart-icon" /></a>
-                        <div class="shop-counter"> {{ shopCounter}} </div>
-                    </li>
-                    <li class="user"><a href="#"><font-awesome-icon icon="fa-regular fa-user" /></a></li>
-                    <li class="search-bar">
-                        <input type="text" placeholder="Search...">
-                        <a href="#"><font-awesome-icon icon="fa-solid fa-magnifying-glass" class="lens" /></a>
-                    </li>
-                </ul>
-            </div>
+            <HeaderStart :logo="logo" />
+            <HeaderEnd />
         </div>
     </header>
 </template>
 
 
 <script>
+import HeaderStart from './HeaderStart.vue';
+import HeaderEnd from './HeaderEnd.vue';
 
 export default {
-
     data() {
         return {
-            menuItems: [
-                {
-                    text: 'Home',
-                    href: '#'
-                },
-                {
-                    text: 'Pages',
-                    href: '#'
-                },
-                {
-                    text: 'Courses',
-                    href: '#'
-                },
-                {
-                    text: 'Features',
-                    href: '#'
-                },
-                {
-                    text: 'Blog',
-                    href: '#'
-                },
-                {
-                    text: 'Shop',
-                    href: '#'
-                }
-            ],
-            shopCounter: 0,
-        }
-    }
-
+            logo: {
+                href: "#",
+                src: require("../assets/images/dark-logo.png"),
+            }
+        };
+    },
+    components: { HeaderStart, HeaderEnd }
 }
 
 </script>
@@ -88,35 +42,33 @@ header {
         .header-start {
 
             img {
-                max-height: 2rem;
+                max-height: 1.5rem;
                 filter: brightness(10);
             }
         }
 
         .header-end {
             @include my-display-flex;
-            gap: 0.5rem;
 
-            .header-end-menu {
+            .header-end-navbar {
                 @include my-display-flex;
                 gap: 2.5rem;
 
-                li {
+                a {
                     position: relative;
                     padding-right: 1rem;
-                    font-weight: 700;
                 }
 
-                li::after {
+                a::after {
                     content: '';
                     position: absolute;
-                    border: 1px solid white;
-                    border-width: 0 2px 2px 0;
+                    border: 0.5px solid white;
+                    border-width: 0 1px 1px 0;
                     display: inline-block;
-                    padding: 2.5px;
+                    padding: 2px;
                     transform: rotate(45deg);
                     right: 0.3rem;
-                    top: 0.4rem;
+                    top: 0.45rem;
                 }
             }
 
@@ -149,11 +101,22 @@ header {
                     }
                 }
 
+                li.user .user-icon {
+                    font-size: 0.75rem;
+                    border: 1px solid white;
+                    border-radius: 50%;
+                    padding: 1px;
+                }
+
                 .search-bar {
                     position: relative;
 
                     input {
-                        padding: 1rem;                    
+                        padding: 1rem;
+                        width: 12.5rem;
+                        font-size: 1rem;
+                        font-weight: lighter;
+                        border-radius: 0.5rem;  
                     }
 
                     .lens {
