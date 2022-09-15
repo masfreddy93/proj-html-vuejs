@@ -329,6 +329,7 @@ main {
                     max-width: 170px;
                     aspect-ratio: 1;
                     border-radius: 50%;
+                    object-fit: cover;
 
                 }
 
@@ -389,7 +390,7 @@ main {
                     max-width: 200px;
                     aspect-ratio: 1;
                     border-radius: 50%;
-                    // display: none;
+                    object-fit: cover;
                 }
             }
 
