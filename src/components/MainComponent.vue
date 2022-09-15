@@ -175,10 +175,10 @@
                             </figure>
                             <div class="card-details">
                                 <h5>Artist</h5>
-                                <p><a href="#">Bush Strokes Energize Trees in Paintings</a></p>
+                                <h4><a href="#">Bush Strokes Energize Trees in Paintings</a></h4>
                                 <div class="blog-details row-section">
                                     <div class="article-date row-section">
-                                        <font-awesome-icon icon="fa-regular fa-calendar" /> 
+                                        <font-awesome-icon icon="fa-regular fa-calendar" />
                                         <span>May 15 2020</span>
                                     </div>
                                     <div class="views-number row-section">
@@ -196,7 +196,7 @@
                             </figure>
                             <div class="card-details">
                                 <h5>Artist</h5>
-                                <p><a href="#">Pocket Sized Notebooks Hold Miniature Paintings</a></p>
+                                <h4><a href="#">Pocket Sized Notebooks Hold Miniature Paintings</a></h4>
                                 <div class="blog-details row-section">
                                     <div class="article-date row-section">
                                         <font-awesome-icon icon="fa-regular fa-calendar" />
@@ -217,7 +217,7 @@
                             </figure>
                             <div class="card-details">
                                 <h5>Artist</h5>
-                                <p><a href="#">Connection Between Self-Portraits and Identity</a></p>
+                                <h4><a href="#">Connection Between Self-Portraits and Identity</a></h4>
                                 <div class="blog-details row-section">
                                     <div class="article-date row-section">
                                         <font-awesome-icon icon="fa-regular fa-calendar" />
@@ -228,6 +228,62 @@
                                         <span>397 Views</span>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-5">
+            <div class="container">
+                <h5>Wanna transform your life?</h5>
+                <h2>Glad to <mark>Help You</mark> Learn</h2>
+                <ul class="row-section">
+                    <li>
+                        <div class="card">
+                            <figure class="card-thumbnail">
+                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <h4><a href="#">Idea Discussion</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
+                                    odit quasi iure ipsum.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure class="card-thumbnail">
+                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <h4><a href="#">Web Development</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
+                                    odit quasi iure ipsum.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure class="card-thumbnail">
+                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <h4><a href="#">System Administration</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
+                                    odit quasi iure ipsum.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure class="card-thumbnail">
+                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <h4><a href="#">Graphic Design</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
+                                    odit quasi iure ipsum.</p>
                             </div>
                         </div>
                     </li>
@@ -385,11 +441,11 @@ main {
                 font-size: 1rem;
             }
 
-            p {
+            h4 {
                 margin-bottom: 2rem;
             }
 
-            p a {
+            h4 a {
                 line-height: 2rem;
                 font-size: 1.4375rem;
                 font-weight: bold;
@@ -404,6 +460,43 @@ main {
                 }
             }
 
+        }
+    }
+
+    .section-5 {
+        h5 {
+            color: $font-color-grey-section;
+        }
+
+        ul {
+            gap: 3rem;
+
+            .card {
+
+                figure {
+                    margin-bottom: 1.5rem;
+
+                    img {
+                        max-width: 4rem;
+                        aspect-ratio: 1;
+                        background-color: black;
+                    }
+                }
+
+                h4 {
+                    margin-bottom: 1rem;
+                }
+
+                h4 a {
+                    line-height: 1.5rem;
+                    font-size: 1.1875rem;
+                    font-weight: bold;
+                }
+
+                p {
+                    font-size: 0.875rem;
+                }
+            }
         }
     }
 
