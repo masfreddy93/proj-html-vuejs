@@ -1,4 +1,4 @@
-
+@import './variables.scss';
 
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -6,7 +6,7 @@
     // -moz-osx-font-smoothing: grayscale;
     // text-align: center;
     color: #333333;
-  }
+}
 
 * {
     margin: 0;
@@ -29,6 +29,13 @@ a {
     padding: 1rem;
 }
 
+
+//sections style
+section {
+    text-align: center;
+    padding: 5.75rem 0;
+}
+
 h2 {
     font-size: 2.875rem;
 }
@@ -36,9 +43,48 @@ h2 {
 .button {
     text-align: center;
     padding: 1rem 2.5rem;
-    background-color: #20AD96;
+    background-color: $button-bg;
     color: white;
     font-size: 0.875;
     font-weight: bold;
     border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+mark {
+    text-decoration: none;
+    background-color: transparent;
+    color: $button-bg;
+    font-weight: lighter;
+}
+
+section h5 {
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    margin-bottom: 1.5rem;
+}
+
+section h2 {
+    padding: 0.5rem 0;
+    margin-bottom: 5rem;
+}
+
+section .carousel {
+    margin-bottom: 4rem;
+    padding: 0 1rem;
+    text-align: start;
+}
+
+.row-section {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.col-4 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-8 {
+    flex-basis: calc(100% / 3 * 2);
 }
