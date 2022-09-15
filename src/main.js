@@ -9,11 +9,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faMagnifyingGlass, faCartShopping, faFileLines } from '@fortawesome/free-solid-svg-icons'
-import { faUser } from '@fortawesome/free-regular-svg-icons'
+import { faUser, faEye, faCalendar } from '@fortawesome/free-regular-svg-icons'
 import { faInstagram, faLinkedin, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faCartShopping, faUser, faSquareFacebook, faTwitter, faInstagram, faLinkedin, faFileLines)
+library.add(faMagnifyingGlass, faCartShopping, faUser, faSquareFacebook, faTwitter, faInstagram, faLinkedin, faFileLines, faEye, faCalendar)
 
 
 
