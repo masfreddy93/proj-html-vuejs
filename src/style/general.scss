@@ -29,6 +29,17 @@ a {
     padding: 1rem;
 }
 
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 
 //sections style
 section {
@@ -73,12 +84,16 @@ section h2 {
 section .carousel {
     margin-bottom: 4rem;
     padding: 0 1rem;
-    text-align: start;
+    // text-align: start;
 }
 
 .row-section {
     display: flex;
     gap: 1.5rem;
+}
+
+.col-3 {
+    flex-basis: calc(100% / 4);
 }
 
 .col-4 {
@@ -87,4 +102,8 @@ section .carousel {
 
 .col-8 {
     flex-basis: calc(100% / 3 * 2);
+}
+
+.card {
+    text-align: start;
 }
