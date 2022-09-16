@@ -122,3 +122,73 @@ section .carousel {
 .card {
     text-align: start;
 }
+
+
+// circles
+.circle {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle-small {
+    width: 30px;
+    height: 30px;
+}
+
+.circle-medium {
+    width: 55px;
+    height: 55px;
+}
+
+.circle-big {
+    width: 64px;
+    height: 64px;
+}
+
+.circle-1 {
+    background-color: $circle-1;
+    top: -30%;
+    left: 40%;
+}
+
+.circle-2 {
+    background-color: $circle-2;
+    top: 40%;
+    left: -15%;
+}
+
+.circle-3 {
+    background-color: $circle-3;
+    top: 65%;
+    right: -10%;
+}
+
+.circle-4 {
+    background-color: $circle-4;
+    top: 15%;
+    right: -35%;
+}
+
+.circle-5 {
+    background-color: $circle-5;
+    bottom: -60%;
+    left: -30%;
+}
+
+.circle-6 {
+    border: 5px solid $circle-6;
+    top: -50%;
+    left: -35%;
+}
+
+.circle-7 {
+    border: 5px solid $circle-7;
+    bottom: -65%;
+    right: -33%;
+}
+
+.circle-8 {
+    background-color: $circle-8;
+    top: -97%;
+    right: -35%;
+}
