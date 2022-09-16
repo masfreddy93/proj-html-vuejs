@@ -8,12 +8,13 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faMagnifyingGlass, faCartShopping, faFileLines, faCheck } from '@fortawesome/free-solid-svg-icons'
-import { faUser, faEye, faCalendar } from '@fortawesome/free-regular-svg-icons'
+import { faMagnifyingGlass, faCartShopping, faFileLines, faCheck, faGear, faDesktop, faBook, faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faEye, faCalendar, faFlag, faLifeRing } from '@fortawesome/free-regular-svg-icons'
 import { faInstagram, faLinkedin, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faCartShopping, faUser, faSquareFacebook, faTwitter, faInstagram, faLinkedin, faFileLines, faEye, faCalendar, faCheck)
+library.add(faMagnifyingGlass, faCartShopping, faUser, faSquareFacebook, faTwitter, faInstagram, faLinkedin, faFileLines, faEye, faCalendar, 
+  faCheck, faFlag, faGear, faLifeRing, faDesktop, faBook, faPlay)
 
 
 
