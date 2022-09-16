@@ -9,8 +9,8 @@
 
 
 <script>
-import HeaderStart from './HeaderStart.vue';
-import HeaderEnd from './HeaderEnd.vue';
+import HeaderStart from './secondaryComponents/HeaderStart.vue';
+import HeaderEnd from './secondaryComponents/HeaderEnd.vue';
 
 export default {
     data() {

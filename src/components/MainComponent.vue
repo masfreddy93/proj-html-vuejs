@@ -1,486 +1,31 @@
 <template>
     <main>
-        <ul class="side-bar">
-            <li><a href="#">
-                    <font-awesome-icon icon="fa-solid fa-play" />
-                </a></li>
-            <li><a href="#">
-                    <font-awesome-icon icon="fa-regular fa-life-ring" />
-                </a></li>
-            <li><a href="#">
-                    <font-awesome-icon icon="fa-solid fa-book" />
-                </a></li>
-            <li><a href="#">
-                    <font-awesome-icon icon="fa-solid fa-cart-shopping" />
-                </a></li>
-        </ul>
-        <div class="hero">
-            <div class="hero-top">
-                <div class="container-hero">
-                    <h2>Learn Ay Your Own Pace!</h2>
-                    <p>Get teamed up with people of the same will</p>
-                    <button class="button">Get started for free</button>
-                    <figure>
-                        <img src="../assets/images/home-6-hero-poster-final.jpg" alt="Poster Hero" class="poster-hero">
-                        <img src="../assets/images/icon-youtube-play.png" alt="Logo Youtube" class="youtube-logo">
-                        <img src="../assets/images/home-6-hero-left-person.png" alt="person pic"
-                            class="hero-person person-left">
-                        <img src="../assets/images/home-6-hero-right-person.png" alt="person pic"
-                            class="hero-person person-right">
-                    </figure>
-                </div>
-            </div>
-            <div class="hero-middle">
-                <div class="container-hero">
-                    <div class="circles">
-                        <div class="circle circle-small circle-1"></div>
-                        <div class="circle circle-small circle-2"></div>
-                        <div class="circle circle-small circle-3"></div>
-                        <div class="circle circle-small circle-4"></div>
-                        <div class="circle circle-medium circle-5"></div>
-                        <div class="circle circle-medium circle-6"></div>
-                        <div class="circle circle-big circle-7"></div>
-                        <div class="circle circle-medium circle-8"></div>
-                    </div>
-
-                    <h3>Let passion and determination be the guide along the way and develop at your own pace that's
-                        confortable</h3>
-                    <h5>Fannie Moreno</h5>
-                    <span>Founder & CEO</span>
-                </div>
-            </div>
-            <div class="hero-bottom">
-                <div class="container">
-                    <ul>
-                        <li>
-                            <span>1.926</span>
-                            <h5>Finished sessions</h5>
-                        </li>
-                        <li>
-                            <span>3.092+</span>
-                            <h5>Enrolled learners</h5>
-                        </li>
-                        <li>
-                            <span>200</span>
-                            <h5>Online instructors</h5>
-                        </li>
-                        <li>
-                            <span>100%</span>
-                            <h5>Satisfaction rate</h5>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <section class="section-1">
-            <div class="container">
-                <div class="cards">
-                    <div class="cards-left">
-                        <div class="card">
-                            <a href="#">
-                                <h4>Graphic Design</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima
-                                facilis iure nam iusto odit?</p>
-                            <figure>
-                                <img src="../assets/images/home-6-service-image-01.png" alt="logo graphic desing">
-                            </figure>
-                        </div>
-                        <div class="card" style="padding-bottom: 1rem">
-                            <figure>
-                                <img src="../assets/images/home-6-service-image-03.png" alt="logo idea discussion"
-                                    style="margin-bottom: 1rem; margin-left: -20px;">
-                            </figure>
-                            <a href="#">
-                                <h4>Idea Discussion</h4>
-                            </a>
-                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Eaque similique doloribus minima facilis iure nam iusto odit?</p>
-                        </div>
-                    </div>
-                    <div class="cards-right">
-                        <div class="card">
-                            <a href="#">
-                                <h4>Business Administration</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima
-                                facilis iure nam iusto odit?</p>
-                            <figure>
-                                <img src="../assets/images/home-6-service-image-02.png"
-                                    alt="logo business administration" style="margin-left: 40px">
-                            </figure>
-                        </div>
-                        <div class="card" style="padding-bottom: 1rem">
-                            <figure>
-                                <img src="../assets/images/home-6-service-image-04.png" alt="logo web development"
-                                    style="margin-bottom: 1rem;">
-                            </figure>
-                            <a href="#">
-                                <h4>Web Development</h4>
-                            </a>
-                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Eaque similique doloribus minima facilis iure nam iusto odit?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services">
-                    <h5>Together we can create</h5>
-                    <h2>Services We Can <mark>Provide</mark> For My Clients.</h2>
-                    <ul>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
-                            <p>Select & customize courses to your preferences</p>
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
-                            <p>Change the tutor and make arrangements</p>
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
-                            <p>Partecipate in events to join others</p>
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
-                            <p>Get the desired certificate delivered at house</p>
-                        </li>
-                    </ul>
-                    <button class="button">Get started for free</button>
-                </div>
-            </div>
-        </section>
-        <section class="section-2">
-            <div class="container">
-                <h5>Choose a course to get started</h5>
-                <h2>Latest Featured <mark>Courses</mark></h2>
-                <ul class="carousel">
-                    <li>
-                        <div class="card row-section">
-                            <figure class="card-thumbnail col-4">
-                                <a href="#"><img src="../assets/images/course-02-480x298.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <span class="course-price">$40.<span class="course-price-decimals">00</span></span>
-                                <a href="#">
-                                    <p class="course-description">Learning to Write as a Professional Author</p>
-                                </a>
-                                <div class="course-details row-section">
-                                    <div class="lessons-number row-section">
-                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                        <span>20 lessons</span>
-                                    </div>
-                                    <div class="students-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-user" />
-                                        <span>50 students</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card row-section">
-                            <figure class="card-thumbnail col-4">
-                                <a href="#"><img src="../assets/images/stock-full-hd-03-480x298.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <span class="course-price">Free</span>
-                                <a href="#">
-                                    <p class="course-description">Customer-centric Info-Tech Strategies</p>
-                                </a>
-                                <div class="course-details row-section">
-                                    <div class="lessons-number row-section">
-                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                        <span>24 lessons</span>
-                                    </div>
-                                    <div class="students-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-user" />
-                                        <span>769 students</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card row-section">
-                            <figure class="card-thumbnail col-4">
-                                <a href="#"><img src="../assets/images/stock-full-hd-04-480x298.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <span class="course-price">$19.<span class="course-price-decimals">00</span></span>
-                                <a href="#">
-                                    <p class="course-description">Open Programming Courses for Everyone: Python</p>
-                                </a>
-                                <div class="course-details row-section">
-                                    <div class="lessons-number row-section">
-                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                        <span>17 lessons</span>
-                                    </div>
-                                    <div class="students-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-user" />
-                                        <span>62 students</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card row-section">
-                            <figure class="card-thumbnail col-4">
-                                <a href="#"><img src="../assets/images/stock-full-hd-06-480x298.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <span class="course-price">$26.<span class="course-price-decimals">00</span></span>
-                                <a href="#">
-                                    <p class="course-description">Academic Listening and Note-taking</p>
-                                </a>
-                                <div class="course-details row-section">
-                                    <div class="lessons-number row-section">
-                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                        <span>14 lessons</span>
-                                    </div>
-                                    <div class="students-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-user" />
-                                        <span>67 students</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card row-section">
-                            <figure class="card-thumbnail col-4">
-                                <a href="#"><img src="../assets/images/course-featured-image-01-480x298.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <span class="course-price">$39.<span class="course-price-decimals">00</span></span>
-                                <a href="#">
-                                    <p class="course-description">Master jQuery in a Short Period of Time</p>
-                                </a>
-                                <div class="course-details row-section">
-                                    <div class="lessons-number row-section">
-                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                        <span>6 lessons</span>
-                                    </div>
-                                    <div class="students-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-user" />
-                                        <span>51 students</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card row-section">
-                            <figure class="card-thumbnail col-4">
-                                <a href="#"><img src="../assets/images/stock-full-hd-05-480x298.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <span class="course-price">$59.<span class="course-price-decimals">00</span></span>
-                                <a href="#">
-                                    <p class="course-description">Introduction to Javascript for Beginners</p>
-                                </a>
-                                <div class="course-details row-section">
-                                    <div class="lessons-number row-section">
-                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                        <span>14 lessons</span>
-                                    </div>
-                                    <div class="students-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-user" />
-                                        <span>76 students</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <button class="button">View All Courses &#8594;</button>
-            </div>
-        </section>
-        <section class="section-3">
-            <div class="container">
-                <h2>Why People Talk About <mark>MaxCoach</mark>?</h2>
-                <div class="container-small">
-                    <div class="card row-section">
-                        <figure class="card-thumbnail col-3">
-                            <a href="#"><img src="../assets/images/testimonial-avata-02.jpg" alt=""></a>
-                        </figure>
-                        <div class="card-details">
-                            <p>I am free to learn at my own space, follow my own schedule and choose the subject I like.
-                                Great study portal for people like me.</p>
-                            <h5>Mina Hollance</h5>
-                            <span>/ Freelancer</span>
-                        </div>
-                    </div>
-                </div>
-                <ul class="row">
-                    <li><a href="#"><img src="../assets/images/client-logo-colored-01.png" alt=""></a></li>
-                    <li><a href="#"><img src="../assets/images/client-logo-colored-02.png" alt=""></a></li>
-                    <li><a href="#"><img src="../assets/images/client-logo-colored-03.png" alt=""></a></li>
-                    <li><a href="#"><img src="../assets/images/client-logo-colored-04.png" alt=""></a></li>
-                    <li><a href="#"><img src="../assets/images/client-logo-colored-05.png" alt=""></a></li>
-                    <li><a href="#"><img src="../assets/images/client-logo-colored-06.png" alt=""></a></li>
-                </ul>
-            </div>
-        </section>
-        <section class="section-4">
-            <div class="container">
-                <h5>Enjoy reading on maxcoach</h5>
-                <h2>Latest On <mark>Our Blogs</mark></h2>
-                <ul class="row-section">
-                    <li>
-                        <div class="card">
-                            <figure class="card-thumbnail">
-                                <a href="#"><img src="../assets/images/artist-blog-03-480x325.jpeg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <h5>Artist</h5>
-                                <h4><a href="#">Bush Strokes Energize Trees in Paintings</a></h4>
-                                <div class="blog-details row-section">
-                                    <div class="article-date row-section">
-                                        <font-awesome-icon icon="fa-regular fa-calendar" />
-                                        <span>May 15 2020</span>
-                                    </div>
-                                    <div class="views-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-eye" />
-                                        <span>650 Views</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card">
-                            <figure class="card-thumbnail">
-                                <a href="#"><img src="../assets/images/artist-blog-01-480x325.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <h5>Artist</h5>
-                                <h4><a href="#">Pocket Sized Notebooks Hold Miniature Paintings</a></h4>
-                                <div class="blog-details row-section">
-                                    <div class="article-date row-section">
-                                        <font-awesome-icon icon="fa-regular fa-calendar" />
-                                        <span>May 15 2020</span>
-                                    </div>
-                                    <div class="views-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-eye" />
-                                        <span>603 Views</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card">
-                            <figure class="card-thumbnail">
-                                <a href="#"><img src="../assets/images/artist-blog-02-480x325.jpg" alt=""></a>
-                            </figure>
-                            <div class="card-details">
-                                <h5>Artist</h5>
-                                <h4><a href="#">Connection Between Self-Portraits and Identity</a></h4>
-                                <div class="blog-details row-section">
-                                    <div class="article-date row-section">
-                                        <font-awesome-icon icon="fa-regular fa-calendar" />
-                                        <span>May 15 2020</span>
-                                    </div>
-                                    <div class="views-number row-section">
-                                        <font-awesome-icon icon="fa-regular fa-eye" />
-                                        <span>397 Views</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section-5">
-            <div class="container">
-                <h5>Wanna transform your life?</h5>
-                <h2>Glad to <mark>Help You</mark> Learn</h2>
-                <ul class="row-section">
-                    <li>
-                        <div class="card">
-                            <figure class="card-thumbnail">
-                                <a href="#">
-                                    <font-awesome-icon icon="fa-regular fa-flag" />
-                                </a>
-                            </figure>
-                            <div class="card-details">
-                                <h4><a href="#">Idea Discussion</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
-                                    odit quasi iure ipsum.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card">
-                            <figure class="card-thumbnail">
-                                <a href="#">
-                                    <font-awesome-icon icon="fa-solid fa-gear" />
-                                </a>
-                            </figure>
-                            <div class="card-details">
-                                <h4><a href="#">Web Development</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
-                                    odit quasi iure ipsum.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card">
-                            <figure class="card-thumbnail">
-                                <a href="#">
-                                    <font-awesome-icon icon="fa-regular fa-life-ring" />
-                                </a>
-                            </figure>
-                            <div class="card-details">
-                                <h4><a href="#">System Administration</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
-                                    odit quasi iure ipsum.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card">
-                            <figure class="card-thumbnail">
-                                <a href="#">
-                                    <font-awesome-icon icon="fa-solid fa-desktop" />
-                                </a>
-                            </figure>
-                            <div class="card-details">
-                                <h4><a href="#">Graphic Design</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam, libero
-                                    odit quasi iure ipsum.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section-6">
-            <div class="container">
-                <div class="circles">
-                    <div class="circle circle-small circle-2" style="top: 40%; left: -20%"></div>
-                    <div class="circle circle-small circle-3" style="top: 93%; right: -20%"></div>
-                    <div class="circle circle-small circle-4" style="top: 55%; left: 90%"></div>
-                    <div class="circle circle-medium circle-5" style="top: 90%; left: -18%"></div>
-                    <div class="circle circle-medium circle-6" style="top: -10%; left: 2%"></div>
-                    <div class="circle circle-medium circle-8" style="top: -5%; right: -5%"></div>
-                </div>
-                <img src="../assets/images/home-6-services-image.png" alt="">
-                <h4>Start today for getting <mark>Online Certification</mark></h4>
-                <h3>You can be your own guiding star with our help!</h3>
-                <button class="button">Get started now</button>
-            </div>
-        </section>
-        <button class="button link-arrow-top">&#8593;</button>
+        <SideBar />
+        <HeroComponent />
+        <Section1Component />
+        <Section2Component />
+        <Section3Component />
+        <Section4Component />
+        <Section5Component />
+        <Section6Component />
+        <ButtonArrowUp />
     </main>
 </template>
 
 
 <script>
+import HeroComponent from "./secondaryComponents/HeroComponent.vue";
+import SideBar from "./secondaryComponents/SideBar.vue"; 
+import Section1Component from "./secondaryComponents/Section1Component.vue";
+import Section2Component from "./secondaryComponents/Section2Component.vue";
+import Section3Component from "./secondaryComponents/Section3Component.vue";
+import Section4Component from "./secondaryComponents/Section4Component.vue";
+import Section5Component from "./secondaryComponents/Section5Component.vue";
+import Section6Component from "./secondaryComponents/Section6Component.vue";
+import ButtonArrowUp from "./secondaryComponents/ButtonArrowUp.vue";
 
 export default {
-
+    components: { HeroComponent, SideBar, Section1Component, Section2Component, Section3Component, Section4Component, Section5Component, Section6Component, ButtonArrowUp }
 }
 
 </script>
@@ -825,12 +370,24 @@ main {
                 background-repeat: no-repeat;
                 background-position: bottom right;
                 background-size: auto;
+                position: relative;
 
                 img {
                     max-width: 200px;
                     aspect-ratio: 1;
                     border-radius: 50%;
                     object-fit: cover;
+                }
+
+                .back-poster {
+                    background-color: #D2A98E;
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -5%;
+                    left: 17%;
+                    z-index: -1;
                 }
             }
 

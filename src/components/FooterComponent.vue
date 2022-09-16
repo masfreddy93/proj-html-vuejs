@@ -15,8 +15,8 @@
 
 
 <script>
-import FooterTopLeftComponent from './FooterTopLeftComponent.vue';
-import FooterTopRightComponent from './FooterTopRightComponent.vue';
+import FooterTopLeftComponent from './secondaryComponents/FooterTopLeftComponent.vue';
+import FooterTopRightComponent from './secondaryComponents/FooterTopRightComponent.vue';
 
 export default {
     data() {
