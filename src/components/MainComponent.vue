@@ -47,12 +47,73 @@
                 </div>
             </div>
         </div>
+        <section class="section-1">
+            <div class="container">
+                <div class="cards">
+                    <div class="cards-left">
+                        <div class="card">
+                            <a href="#"><h4>Graphic Design</h4></a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                            <figure>
+                                <img src="../assets/images/home-6-service-image-01.png" alt="logo graphic desing" style="margin-bottom: -11px">
+                            </figure>
+                        </div>
+                        <div class="card">
+                            <figure>
+                                <img src="../assets/images/home-6-service-image-03.png" alt="logo idea discussion" style="margin-bottom: 1rem; margin-left: -11px" >
+                            </figure>
+                            <a href="#"><h4>Idea Discussion</h4></a>
+                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                        </div>
+                    </div>
+                    <div class="cards-right">
+                        <div class="card">
+                            <a href="#"><h4>Business Administration</h4></a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                            <figure>
+                                <img src="../assets/images/home-6-service-image-02.png" alt="logo business administration" style="margin-left: 40px">
+                            </figure>
+                        </div>
+                        <div class="card">
+                            <figure>
+                                <img src="../assets/images/home-6-service-image-04.png" alt="logo web development" style="margin-bottom: 1rem">
+                            </figure>
+                            <a href="#"><h4>Web Development</h4></a>
+                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services">
+                    <h5>Together we can create</h5>
+                    <h2>Services We Can <mark>Provide</mark> For My Clients.</h2>
+                    <ul>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <p>Select & customize courses to your preferences</p>
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <p>Change the tutor and make arrangements</p>
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <p>Partecipate in events to join others</p>
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <p>Get the desired certificate delivered at house</p>
+                        </li>
+                    </ul>
+                    <button class="button">Get started for free</button>
+                </div>
+            </div>
+        </section>
         <section class="section-2">
             <div class="container">
                 <h5>Choose a course to get started</h5>
                 <h2>Latest Featured <mark>Courses</mark></h2>
                 <ul class="carousel">
-                    <li class>
+                    <li>
                         <div class="card row-section">
                             <figure class="card-thumbnail col-4">
                                 <a href="#"><img src="../assets/images/course-02-480x298.jpg" alt=""></a>
@@ -75,107 +136,117 @@
                             </div>
                         </div>
                     </li>
-                    <li class="card row-section">
-                        <figure class="card-thumbnail col-4">
-                            <a href="#"><img src="../assets/images/stock-full-hd-03-480x298.jpg" alt=""></a>
-                        </figure>
-                        <div class="card-details">
-                            <span class="course-price">Free</span>
-                            <a href="#">
-                                <p class="course-description">Customer-centric Info-Tech Strategies</p>
-                            </a>
-                            <div class="course-details row-section">
-                                <div class="lessons-number row-section">
-                                    <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                    <span>24 lessons</span>
-                                </div>
-                                <div class="students-number row-section">
-                                    <font-awesome-icon icon="fa-regular fa-user" />
-                                    <span>769 students</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card row-section">
-                        <figure class="card-thumbnail col-4">
-                            <a href="#"><img src="../assets/images/stock-full-hd-04-480x298.jpg" alt=""></a>
-                        </figure>
-                        <div class="card-details">
-                            <span class="course-price">$19.<span class="course-price-decimals">00</span></span>
-                            <a href="#">
-                                <p class="course-description">Open Programming Courses for Everyone: Python</p>
-                            </a>
-                            <div class="course-details row-section">
-                                <div class="lessons-number row-section">
-                                    <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                    <span>17 lessons</span>
-                                </div>
-                                <div class="students-number row-section">
-                                    <font-awesome-icon icon="fa-regular fa-user" />
-                                    <span>62 students</span>
+                    <li>
+                        <div class="card row-section">
+                            <figure class="card-thumbnail col-4">
+                                <a href="#"><img src="../assets/images/stock-full-hd-03-480x298.jpg" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <span class="course-price">Free</span>
+                                <a href="#">
+                                    <p class="course-description">Customer-centric Info-Tech Strategies</p>
+                                </a>
+                                <div class="course-details row-section">
+                                    <div class="lessons-number row-section">
+                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
+                                        <span>24 lessons</span>
+                                    </div>
+                                    <div class="students-number row-section">
+                                        <font-awesome-icon icon="fa-regular fa-user" />
+                                        <span>769 students</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="card row-section">
-                        <figure class="card-thumbnail col-4">
-                            <a href="#"><img src="../assets/images/stock-full-hd-06-480x298.jpg" alt=""></a>
-                        </figure>
-                        <div class="card-details">
-                            <span class="course-price">$26.<span class="course-price-decimals">00</span></span>
-                            <a href="#">
-                                <p class="course-description">Academic Listening and Note-taking</p>
-                            </a>
-                            <div class="course-details row-section">
-                                <div class="lessons-number row-section">
-                                    <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                    <span>14 lessons</span>
-                                </div>
-                                <div class="students-number row-section">
-                                    <font-awesome-icon icon="fa-regular fa-user" />
-                                    <span>67 students</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card row-section">
-                        <figure class="card-thumbnail col-4">
-                            <a href="#"><img src="../assets/images/course-featured-image-01-480x298.jpg" alt=""></a>
-                        </figure>
-                        <div class="card-details">
-                            <span class="course-price">$39.<span class="course-price-decimals">00</span></span>
-                            <a href="#">
-                                <p class="course-description">Master jQuery in a Short Period of Time</p>
-                            </a>
-                            <div class="course-details row-section">
-                                <div class="lessons-number row-section">
-                                    <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                    <span>6 lessons</span>
-                                </div>
-                                <div class="students-number row-section">
-                                    <font-awesome-icon icon="fa-regular fa-user" />
-                                    <span>51 students</span>
+                    <li>
+                        <div class="card row-section">
+                            <figure class="card-thumbnail col-4">
+                                <a href="#"><img src="../assets/images/stock-full-hd-04-480x298.jpg" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <span class="course-price">$19.<span class="course-price-decimals">00</span></span>
+                                <a href="#">
+                                    <p class="course-description">Open Programming Courses for Everyone: Python</p>
+                                </a>
+                                <div class="course-details row-section">
+                                    <div class="lessons-number row-section">
+                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
+                                        <span>17 lessons</span>
+                                    </div>
+                                    <div class="students-number row-section">
+                                        <font-awesome-icon icon="fa-regular fa-user" />
+                                        <span>62 students</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="card row-section">
-                        <figure class="card-thumbnail col-4">
-                            <a href="#"><img src="../assets/images/stock-full-hd-05-480x298.jpg" alt=""></a>
-                        </figure>
-                        <div class="card-details">
-                            <span class="course-price">$59.<span class="course-price-decimals">00</span></span>
-                            <a href="#">
-                                <p class="course-description">Introduction to Javascript for Beginners</p>
-                            </a>
-                            <div class="course-details row-section">
-                                <div class="lessons-number row-section">
-                                    <font-awesome-icon icon="fa-solid fa-file-lines" />
-                                    <span>14 lessons</span>
+                    <li>
+                        <div class="card row-section">
+                            <figure class="card-thumbnail col-4">
+                                <a href="#"><img src="../assets/images/stock-full-hd-06-480x298.jpg" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <span class="course-price">$26.<span class="course-price-decimals">00</span></span>
+                                <a href="#">
+                                    <p class="course-description">Academic Listening and Note-taking</p>
+                                </a>
+                                <div class="course-details row-section">
+                                    <div class="lessons-number row-section">
+                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
+                                        <span>14 lessons</span>
+                                    </div>
+                                    <div class="students-number row-section">
+                                        <font-awesome-icon icon="fa-regular fa-user" />
+                                        <span>67 students</span>
+                                    </div>
                                 </div>
-                                <div class="students-number row-section">
-                                    <font-awesome-icon icon="fa-regular fa-user" />
-                                    <span>76 students</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card row-section">
+                            <figure class="card-thumbnail col-4">
+                                <a href="#"><img src="../assets/images/course-featured-image-01-480x298.jpg" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <span class="course-price">$39.<span class="course-price-decimals">00</span></span>
+                                <a href="#">
+                                    <p class="course-description">Master jQuery in a Short Period of Time</p>
+                                </a>
+                                <div class="course-details row-section">
+                                    <div class="lessons-number row-section">
+                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
+                                        <span>6 lessons</span>
+                                    </div>
+                                    <div class="students-number row-section">
+                                        <font-awesome-icon icon="fa-regular fa-user" />
+                                        <span>51 students</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card row-section">
+                            <figure class="card-thumbnail col-4">
+                                <a href="#"><img src="../assets/images/stock-full-hd-05-480x298.jpg" alt=""></a>
+                            </figure>
+                            <div class="card-details">
+                                <span class="course-price">$59.<span class="course-price-decimals">00</span></span>
+                                <a href="#">
+                                    <p class="course-description">Introduction to Javascript for Beginners</p>
+                                </a>
+                                <div class="course-details row-section">
+                                    <div class="lessons-number row-section">
+                                        <font-awesome-icon icon="fa-solid fa-file-lines" />
+                                        <span>14 lessons</span>
+                                    </div>
+                                    <div class="students-number row-section">
+                                        <font-awesome-icon icon="fa-regular fa-user" />
+                                        <span>76 students</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -374,7 +445,7 @@ main {
 
         .hero-top {
             padding-top: 100px;
-            background: linear-gradient(($header-bg, #8888d9) 86%, (rgb(162, 192, 244), rgb(252, 249, 249)) 86%);
+            background: linear-gradient(($header-bg, #8888d9) 86%, (grey, rgb(250, 247, 247)) 86%);
             color: white;
 
             .container-hero {
@@ -399,12 +470,16 @@ main {
             figure {
                 position: relative;
                 padding-bottom: 1rem;
+                
 
                 img.poster-hero {
                     max-height: 465px;
                     display: inline-block;
                     border: 20px solid white;
                     border-radius: 10px;
+                    position: relative;
+                    z-index: 1;
+                    // box-shadow: -1px 30px 8px $section-bg-grey;
                 }
 
                 img.youtube-logo {
@@ -414,6 +489,7 @@ main {
                     left: 50%;
                     transform: translate(-50%, -50%);
                     cursor: pointer;
+                    z-index: 99;
                 }
 
                 img.hero-person {
@@ -424,7 +500,7 @@ main {
                 img.person-left {
                     max-width: 360px;
                     left: 0;
-                    transform: translateX(-80%);
+                    transform: translateX(-85%);
                 }
 
                 img.person-right {
@@ -481,6 +557,101 @@ main {
         }
     }
 
+    .section-1 {
+        
+        .container {
+            @include my-display-flex;
+            text-align: start;
+            
+            .cards, .services {
+                padding: 0.5rem;
+            }
+
+            h5, p {
+                color: $font-color-grey-section;
+            }
+
+
+            .cards {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                flex-basis: 50%;
+
+                .cards-left {
+                    margin-top: -5rem;
+
+                }
+
+                .cards-right {
+                    margin-bottom: -5rem;
+                }
+
+                .card {
+                    margin-bottom: 2rem;
+                    padding-top: 2rem;
+                    box-shadow: 10px 20px 50px $section-bg-grey;
+
+                    p, h4, img {
+                        padding: 0 1.25rem;
+                    }
+
+                    h4 {
+                        font-size: 1.125rem;
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+
+                    p {
+                        font-size: 0.9375rem;
+                        line-height: 1.5rem;
+                        // margin-bottom: 2rem;
+                    }
+
+                    img {
+                        height: 200px;
+                        object-fit: contain;
+                    }
+                }
+            }
+
+            .services {
+                align-self: center;
+                flex-basis: 50%;
+                padding: 2rem 5.5rem;
+
+                h5 {
+                    font-size: 1rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-bottom: 1.75rem;
+                }
+
+                h2 {
+                    font-size: 2.75rem;
+                    font-weight: bold;
+                    margin-bottom: 3rem;
+                }
+
+                ul {
+                    margin-bottom: 2rem;
+
+                    li {
+                        display: flex;
+                        gap: 1rem;
+                        font-size: 1rem;
+                        margin-bottom: 1rem;
+
+                        .fa-check {
+                            color: $button-bg;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
     .section-2 {
         background-color: $section-bg-grey;
 
@@ -496,6 +667,11 @@ main {
             li {
                 flex-basis: calc(50% - 1rem);
                 justify-content: flex-start;
+                padding: 1rem;
+
+                &:hover {
+                    background-color: white;
+                }
 
                 img {
                     max-width: 170px;
