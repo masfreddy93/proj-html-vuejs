@@ -1,5 +1,11 @@
 <template>
     <main>
+        <ul class="side-bar">
+            <li><a href="#"><font-awesome-icon icon="fa-solid fa-play" /></a></li>
+            <li><a href="#"><font-awesome-icon icon="fa-regular fa-life-ring" /></a></li>
+            <li><a href="#"><font-awesome-icon icon="fa-solid fa-book" /></a></li>
+            <li><a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a></li>
+        </ul>
         <div class="hero">
             <div class="hero-top">
                 <div class="container-hero">
@@ -360,7 +366,7 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                                <a href="#"><font-awesome-icon icon="fa-regular fa-flag" /></a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">Idea Discussion</a></h4>
@@ -372,7 +378,7 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                                <a href="#"><font-awesome-icon icon="fa-solid fa-gear" /></a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">Web Development</a></h4>
@@ -384,7 +390,7 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                                <a href="#"><font-awesome-icon icon="fa-regular fa-life-ring" /></a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">System Administration</a></h4>
@@ -396,7 +402,7 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><img src="../assets/images/maxcoach-shape-05-150x150.png" alt=""></a>
+                                <a href="#"><font-awesome-icon icon="fa-solid fa-desktop" /></a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">Graphic Design</a></h4>
@@ -435,6 +441,18 @@ export default {
 
 main {
 
+    .side-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        padding: 0.75rem;
+        background-color: white;
+        box-shadow: -1px 1px 1px #e4eaf3;
+        position: fixed;
+        // position: absolute;
+        right: 0;
+    }
+    
     .hero {
         text-align: center;
 
@@ -823,15 +841,13 @@ main {
             .card {
 
                 figure {
-                    margin-bottom: 1.5rem;
+                    margin-bottom: 2.5rem;
 
-                    img {
-                        max-width: 4rem;
-                        aspect-ratio: 1;
-                        background-color: black;
+                    svg {
+                        font-size: 4rem;
+
                     }
                 }
-
                 h4 {
                     margin-bottom: 1rem;
                 }
