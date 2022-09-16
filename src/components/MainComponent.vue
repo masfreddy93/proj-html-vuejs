@@ -422,6 +422,7 @@
                 <button class="button">Get started now</button>
             </div>
         </section>
+        <button class="button link-arrow-top">&#8593;</button>
     </main>
 </template>
 
@@ -881,6 +882,21 @@ main {
             font-size: 2.0625rem;
             margin-bottom: 2rem;
         }
+    }
+
+    .link-arrow-top {
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        position: fixed;
+        bottom: 1.875rem;
+        right: 1.875rem;
     }
 
 }
