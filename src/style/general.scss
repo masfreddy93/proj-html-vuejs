@@ -1,10 +1,8 @@
 @import './variables.scss';
 
+//reset 
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
-    // -webkit-font-smoothing: antialiased;
-    // -moz-osx-font-smoothing: grayscale;
-    // text-align: center;
     color: #333333;
 }
 
@@ -53,16 +51,18 @@ section {
     padding: 5.75rem 0;
 }
 
-h2 {
-    font-size: 2.875rem;
+section .carousel {
+    margin-bottom: 4rem;
+    padding: 0 1rem;
 }
+
 
 .button {
     text-align: center;
     padding: 1rem 2.5rem;
     background-color: $button-bg;
     color: white;
-    font-size: 0.875;
+    font-size: 0.875rem;
     font-weight: bold;
     border-radius: 0.5rem;
     border: none;
@@ -85,23 +85,23 @@ mark {
     font-weight: lighter;
 }
 
-section h5 {
-    text-transform: uppercase;
-    padding: 0.5rem 0;
-    margin-bottom: 1rem;
+h2 {
+    font-size: 2.875rem;
 }
 
 section h2 {
-    // padding: 0.5rem 0;
     margin-bottom: 5rem;
 }
 
-section .carousel {
-    margin-bottom: 4rem;
-    padding: 0 1rem;
-    // text-align: start;
+h5 {
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
+
+// flex
 .row-section {
     display: flex;
     gap: 1.5rem;

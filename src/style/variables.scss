@@ -1,5 +1,6 @@
 //variables
 
+/* background */
 $header-bg: #1F1F52;
 $button-bg: #20AD96;
 $button-bg-hover: #3F3A64;
@@ -7,9 +8,11 @@ $section-bg-grey: #F5F7FA;
 $footer-bg-grey: #F8F8F8;
 $section6-bg-grey: #EFF1F4;
 
+/* font */
 $font-color-grey-hero: #B6B3C2;
 $font-color-grey-section: #9E9E9E;
 
+/* circles */
 $circle-1: #BC71FE;
 $circle-2: #FF8265;
 $circle-3: #AAB8F1;
@@ -20,11 +23,11 @@ $circle-7: #F6B9AA;
 $circle-8: #97D9CE;
 
 
+
 //mixin
 @mixin my-display-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
-    // flex-wrap: wrap;
 }

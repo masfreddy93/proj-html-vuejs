@@ -61,7 +61,6 @@ main {
 
         h5 {
             margin-bottom: 1.25rem;
-            font-size: 1rem;
         }
 
         .hero-top {
@@ -75,7 +74,6 @@ main {
 
             h2 {
                 margin-bottom: 0.75rem;
-                font-size: 2.875rem;
             }
 
             p {
@@ -146,12 +144,6 @@ main {
                     margin-bottom: 3.125rem;
                 }
 
-                h5 {
-                    margin-bottom: 1.25rem;
-                    font-size: 1rem;
-                    text-transform: uppercase;
-                }
-
                 span {
                     font-size: 0.875rem;
                     color: $font-color-grey-hero;
@@ -179,7 +171,6 @@ main {
 
                     h5 {
                         color: $font-color-grey-hero;
-                        text-transform: uppercase;
                     }
                 }
             }
@@ -211,7 +202,6 @@ main {
 
                 .cards-left {
                     margin-top: -5rem;
-
                 }
 
                 .cards-right {
@@ -231,14 +221,12 @@ main {
 
                     h4 {
                         font-size: 1.125rem;
-                        font-weight: bold;
                         margin-bottom: 1rem;
                     }
 
                     p {
                         font-size: 0.9375rem;
                         line-height: 1.5rem;
-                        // margin-bottom: 2rem;
                     }
 
                     img {
@@ -254,9 +242,7 @@ main {
                 padding: 2rem 5.5rem;
 
                 h5 {
-                    font-size: 1rem;
                     font-weight: bold;
-                    text-transform: uppercase;
                     margin-bottom: 1.75rem;
                 }
 
@@ -397,7 +383,6 @@ main {
             }
 
             h5 {
-                font-size: 1rem;
                 font-weight: bold;
                 margin-bottom: 1.25rem;
                 padding: 0;
@@ -409,11 +394,8 @@ main {
             }
         }
 
-        .row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 0.5rem;
+        ul.row {
+            @include my-display-flex;
         }
     }
 
@@ -432,10 +414,8 @@ main {
             }
 
             h5 {
-                color: $font-color-grey-section;
                 margin-bottom: 1rem;
                 padding: 0;
-                font-size: 1rem;
             }
 
             h4 {
@@ -445,14 +425,12 @@ main {
             h4 a {
                 line-height: 2rem;
                 font-size: 1.4375rem;
-                font-weight: bold;
             }
 
             .blog-details {
-                // gap: 1.5rem;
 
                 .row-section {
-                    gap: .5rem;
+                    gap: 0.5rem;
                     font-size: 0.75rem;
                 }
             }
@@ -463,7 +441,6 @@ main {
     .section-5 {
         h5 {
             color: $font-color-grey-section;
-            margin-bottom: 1rem;
         }
 
         ul {
@@ -487,11 +464,11 @@ main {
                 h4 a {
                     line-height: 1.5rem;
                     font-size: 1.1875rem;
-                    font-weight: bold;
                 }
 
                 p {
                     font-size: 0.875rem;
+                    color: $font-color-grey-section;
                 }
             }
         }

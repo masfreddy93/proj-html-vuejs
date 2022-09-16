@@ -42,7 +42,7 @@ header {
         .header-start {
 
             img {
-                max-height: 1.5rem;
+                max-height: 24px;
                 filter: brightness(10);
             }
         }
