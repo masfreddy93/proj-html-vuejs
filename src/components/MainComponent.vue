@@ -18,7 +18,7 @@
             <div class="hero-top">
                 <div class="container-hero">
                     <h2>Learn Ay Your Own Pace!</h2>
-                    <p>Get team up with people of the same will</p>
+                    <p>Get teamed up with people of the same will</p>
                     <button class="button">Get started for free</button>
                     <figure>
                         <img src="../assets/images/home-6-hero-poster-final.jpg" alt="Poster Hero" class="poster-hero">
@@ -743,6 +743,10 @@ main {
     .section-2 {
         background-color: $section-bg-grey;
 
+        h5 {
+            color: $font-color-grey-section;
+        }
+
         .carousel {
             @include my-display-flex;
             flex-wrap: wrap;
@@ -838,7 +842,6 @@ main {
             h5 {
                 font-size: 1rem;
                 font-weight: bold;
-                // text-transform: uppercase;
                 margin-bottom: 1.25rem;
                 padding: 0;
             }
@@ -879,7 +882,7 @@ main {
             }
 
             h4 {
-                margin-bottom: 2rem;
+                margin-bottom: 1.5rem;
             }
 
             h4 a {
@@ -903,6 +906,7 @@ main {
     .section-5 {
         h5 {
             color: $font-color-grey-section;
+            margin-bottom: 1rem;
         }
 
         ul {
@@ -948,7 +952,6 @@ main {
 
             h4 {
                 font-size: 1.4375rem;
-                margin-bottom: 1rem;
             }
 
             h3 {

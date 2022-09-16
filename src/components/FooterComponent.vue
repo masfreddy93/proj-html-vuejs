@@ -94,7 +94,7 @@ footer {
             }
 
             h4, li {
-                margin-bottom: 1.5rem;
+                margin-bottom: 1rem;
                 font-size: 0.75rem;
             }
 
