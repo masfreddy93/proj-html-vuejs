@@ -1,10 +1,18 @@
 <template>
     <main>
         <ul class="side-bar">
-            <li><a href="#"><font-awesome-icon icon="fa-solid fa-play" /></a></li>
-            <li><a href="#"><font-awesome-icon icon="fa-regular fa-life-ring" /></a></li>
-            <li><a href="#"><font-awesome-icon icon="fa-solid fa-book" /></a></li>
-            <li><a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a></li>
+            <li><a href="#">
+                    <font-awesome-icon icon="fa-solid fa-play" />
+                </a></li>
+            <li><a href="#">
+                    <font-awesome-icon icon="fa-regular fa-life-ring" />
+                </a></li>
+            <li><a href="#">
+                    <font-awesome-icon icon="fa-solid fa-book" />
+                </a></li>
+            <li><a href="#">
+                    <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                </a></li>
         </ul>
         <div class="hero">
             <div class="hero-top">
@@ -24,6 +32,17 @@
             </div>
             <div class="hero-middle">
                 <div class="container-hero">
+                    <div class="circles">
+                        <div class="circle circle-small circle-1"></div>
+                        <div class="circle circle-small circle-2"></div>
+                        <div class="circle circle-small circle-3"></div>
+                        <div class="circle circle-small circle-4"></div>
+                        <div class="circle circle-medium circle-5"></div>
+                        <div class="circle circle-medium circle-6"></div>
+                        <div class="circle circle-big circle-7"></div>
+                        <div class="circle circle-medium circle-8"></div>
+                    </div>
+
                     <h3>Let passion and determination be the guide along the way and develop at your own pace that's
                         confortable</h3>
                     <h5>Fannie Moreno</h5>
@@ -58,34 +77,49 @@
                 <div class="cards">
                     <div class="cards-left">
                         <div class="card">
-                            <a href="#"><h4>Graphic Design</h4></a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                            <a href="#">
+                                <h4>Graphic Design</h4>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima
+                                facilis iure nam iusto odit?</p>
                             <figure>
-                                <img src="../assets/images/home-6-service-image-01.png" alt="logo graphic desing" style="margin-bottom: -11px">
+                                <img src="../assets/images/home-6-service-image-01.png" alt="logo graphic desing">
                             </figure>
                         </div>
-                        <div class="card">
+                        <div class="card" style="padding-bottom: 1rem">
                             <figure>
-                                <img src="../assets/images/home-6-service-image-03.png" alt="logo idea discussion" style="margin-bottom: 1rem; margin-left: -11px" >
+                                <img src="../assets/images/home-6-service-image-03.png" alt="logo idea discussion"
+                                    style="margin-bottom: 1rem; margin-left: -20px;">
                             </figure>
-                            <a href="#"><h4>Idea Discussion</h4></a>
-                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                            <a href="#">
+                                <h4>Idea Discussion</h4>
+                            </a>
+                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque similique doloribus minima facilis iure nam iusto odit?</p>
                         </div>
                     </div>
                     <div class="cards-right">
                         <div class="card">
-                            <a href="#"><h4>Business Administration</h4></a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                            <a href="#">
+                                <h4>Business Administration</h4>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima
+                                facilis iure nam iusto odit?</p>
                             <figure>
-                                <img src="../assets/images/home-6-service-image-02.png" alt="logo business administration" style="margin-left: 40px">
+                                <img src="../assets/images/home-6-service-image-02.png"
+                                    alt="logo business administration" style="margin-left: 40px">
                             </figure>
                         </div>
-                        <div class="card">
+                        <div class="card" style="padding-bottom: 1rem">
                             <figure>
-                                <img src="../assets/images/home-6-service-image-04.png" alt="logo web development" style="margin-bottom: 1rem">
+                                <img src="../assets/images/home-6-service-image-04.png" alt="logo web development"
+                                    style="margin-bottom: 1rem;">
                             </figure>
-                            <a href="#"><h4>Web Development</h4></a>
-                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique doloribus minima facilis iure nam iusto odit?</p>
+                            <a href="#">
+                                <h4>Web Development</h4>
+                            </a>
+                            <p style="margin-bottom: 2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque similique doloribus minima facilis iure nam iusto odit?</p>
                         </div>
                     </div>
                 </div>
@@ -94,19 +128,19 @@
                     <h2>Services We Can <mark>Provide</mark> For My Clients.</h2>
                     <ul>
                         <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
                             <p>Select & customize courses to your preferences</p>
                         </li>
                         <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
                             <p>Change the tutor and make arrangements</p>
                         </li>
                         <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
                             <p>Partecipate in events to join others</p>
                         </li>
                         <li>
-                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check"/>
+                            <font-awesome-icon icon="fa-solid fa-check" class="fa-check" />
                             <p>Get the desired certificate delivered at house</p>
                         </li>
                     </ul>
@@ -366,7 +400,9 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><font-awesome-icon icon="fa-regular fa-flag" /></a>
+                                <a href="#">
+                                    <font-awesome-icon icon="fa-regular fa-flag" />
+                                </a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">Idea Discussion</a></h4>
@@ -378,7 +414,9 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><font-awesome-icon icon="fa-solid fa-gear" /></a>
+                                <a href="#">
+                                    <font-awesome-icon icon="fa-solid fa-gear" />
+                                </a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">Web Development</a></h4>
@@ -390,7 +428,9 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><font-awesome-icon icon="fa-regular fa-life-ring" /></a>
+                                <a href="#">
+                                    <font-awesome-icon icon="fa-regular fa-life-ring" />
+                                </a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">System Administration</a></h4>
@@ -402,7 +442,9 @@
                     <li>
                         <div class="card">
                             <figure class="card-thumbnail">
-                                <a href="#"><font-awesome-icon icon="fa-solid fa-desktop" /></a>
+                                <a href="#">
+                                    <font-awesome-icon icon="fa-solid fa-desktop" />
+                                </a>
                             </figure>
                             <div class="card-details">
                                 <h4><a href="#">Graphic Design</a></h4>
@@ -416,6 +458,14 @@
         </section>
         <section class="section-6">
             <div class="container">
+                <div class="circles">
+                    <div class="circle circle-small circle-2" style="top: 40%; left: -20%"></div>
+                    <div class="circle circle-small circle-3" style="top: 93%; right: -20%"></div>
+                    <div class="circle circle-small circle-4" style="top: 55%; left: 90%"></div>
+                    <div class="circle circle-medium circle-5" style="top: 90%; left: -18%"></div>
+                    <div class="circle circle-medium circle-6" style="top: -10%; left: 2%"></div>
+                    <div class="circle circle-medium circle-8" style="top: -5%; right: -5%"></div>
+                </div>
                 <img src="../assets/images/home-6-services-image.png" alt="">
                 <h4>Start today for getting <mark>Online Certification</mark></h4>
                 <h3>You can be your own guiding star with our help!</h3>
@@ -445,15 +495,22 @@ main {
     .side-bar {
         display: flex;
         flex-direction: column;
-        gap: 1.25rem;
-        padding: 0.75rem;
+        gap: 1rem;
+        padding: 0.5rem;
         background-color: white;
         box-shadow: -1px 1px 1px #e4eaf3;
         position: fixed;
-        // position: absolute;
         right: 0;
+
+        a {
+            padding: 0.25rem;
+
+            &:hover {
+                opacity: 0.2;
+            }
+        }
     }
-    
+
     .hero {
         text-align: center;
 
@@ -464,7 +521,7 @@ main {
 
         .hero-top {
             padding-top: 100px;
-            background: linear-gradient(($header-bg, #8888d9) 86%, (grey, rgb(250, 247, 247)) 86%);
+            background: linear-gradient(($header-bg, #8888d9) 86%, rgb(250, 247, 247) 86%);
             color: white;
 
             .container-hero {
@@ -489,7 +546,7 @@ main {
             figure {
                 position: relative;
                 padding-bottom: 1rem;
-                
+
 
                 img.poster-hero {
                     max-height: 465px;
@@ -498,7 +555,6 @@ main {
                     border-radius: 10px;
                     position: relative;
                     z-index: 1;
-                    // box-shadow: -1px 30px 8px $section-bg-grey;
                 }
 
                 img.youtube-logo {
@@ -509,6 +565,10 @@ main {
                     transform: translate(-50%, -50%);
                     cursor: pointer;
                     z-index: 99;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
                 }
 
                 img.hero-person {
@@ -533,20 +593,25 @@ main {
         .hero-middle {
             padding: 13rem 0 5rem;
 
-            h3 {
-                font-size: 2.0625rem;
-                margin-bottom: 3.125rem;
-            }
+            .container-hero {
+                position: relative;
 
-            h5 {
-                margin-bottom: 1.25rem;
-                font-size: 1rem;
-                text-transform: uppercase;
-            }
+                h3 {
+                    font-size: 2.0625rem;
+                    margin-bottom: 3.125rem;
+                }
 
-            span {
-                font-size: 0.875rem;
-                color: $font-color-grey-hero;
+                h5 {
+                    margin-bottom: 1.25rem;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                }
+
+                span {
+                    font-size: 0.875rem;
+                    color: $font-color-grey-hero;
+                }
+
             }
         }
 
@@ -577,16 +642,18 @@ main {
     }
 
     .section-1 {
-        
+
         .container {
             @include my-display-flex;
             text-align: start;
-            
-            .cards, .services {
+
+            .cards,
+            .services {
                 padding: 0.5rem;
             }
 
-            h5, p {
+            h5,
+            p {
                 color: $font-color-grey-section;
             }
 
@@ -611,7 +678,9 @@ main {
                     padding-top: 2rem;
                     box-shadow: 10px 20px 50px $section-bg-grey;
 
-                    p, h4, img {
+                    p,
+                    h4,
+                    img {
                         padding: 0 1.25rem;
                     }
 
@@ -849,6 +918,7 @@ main {
 
                     }
                 }
+
                 h4 {
                     margin-bottom: 1rem;
                 }
@@ -868,19 +938,23 @@ main {
 
     .section-6 {
         background: linear-gradient((white, $section6-bg-grey) 54.085%, white 54.085%);
+        
+        .container {
+            position: relative;
 
-        img {
-            margin-bottom: 8.5rem;
-        }
+            img {
+                margin-bottom: 8.5rem;
+            }
 
-        h4 {
-            font-size: 1.4375rem;
-            margin-bottom: 1rem;
-        }
+            h4 {
+                font-size: 1.4375rem;
+                margin-bottom: 1rem;
+            }
 
-        h3 {
-            font-size: 2.0625rem;
-            margin-bottom: 2rem;
+            h3 {
+                font-size: 2.0625rem;
+                margin-bottom: 2rem;
+            }
         }
     }
 
